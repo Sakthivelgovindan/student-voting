@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Voting</title>
+   
+</head>
+<body>
+    <div class="container">
+            <h1> Live voting </h1>
+            <p> Vote for your favourite student</p>
+           <form id='student-vote'>
+                <p>
+                    <input type="radio" name='student' id='student1' value='student1'>
+                    <label>student1</label>
+                </p>
+                <p>
+                    <input type="radio" name='student' id='student2' value='student2'>
+                    <label>student2</label>
+                </p>
+                <p>
+                    <input type="radio" name='student' id='student3' value='student3'>
+                    <label>student3</label>
+                </p>
+                <p>
+                    <input type="radio" name='student' id='student4' value='student4'>
+                    <label>student4</label>
+                </p>
+                <button class="btn" id="submit">Submit</button>
+
+            </form>
+            <br><br>
+
+
+        
+            <div id="chartContainer" style="height:300px;width:100%"></div>
+    </div>
+   
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/pusher/4.3.1/pusher.min.js'></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+   
+</body>
+</html>
